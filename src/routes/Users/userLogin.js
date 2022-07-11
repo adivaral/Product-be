@@ -14,7 +14,7 @@ router.post("/new-user/login", (req, res, next) => {
     
         })
     }else{
-        res.send({message:"User not found"});
+        res.status(404).send({message:"User not found"});
     }
   }).catch((error)=>{
    res.send({error:error});
