@@ -1,0 +1,39 @@
+//user Refistarion.
+user:{
+    username,
+    name,
+    firstname,
+    lastname,
+    address,
+    pincode,
+    password,
+    email,
+    phoneno,
+    dateofbirth,
+    admin,
+    access,
+    alternate no,
+    privacy policy
+
+}
+
+
+{
+    name:String,
+    admin:Boolean,
+    access:String,
+    birthdate:String,
+    email:String,
+    firstname:String,
+    lastname:String,
+    phoneno:String,
+    username:String,
+    address:String,
+    pincode:Number,
+    password:String,
+    alternate_phno:String,
+    privacy_policy:Boolean,
+    subscription:Boolean,
+}
+
+//
